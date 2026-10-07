@@ -1,5 +1,7 @@
 # Program to learn scapy with
 from scapy.all import *
+from scapy.layers.inet import IP
+
 
 # Do not run at work since will make device appear as ff:ff:ff:ff:ff:ff which gets alerted as MAC spoofing
 def doARP(targetIP):
